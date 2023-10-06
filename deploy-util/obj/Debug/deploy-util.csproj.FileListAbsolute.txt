@@ -1,10 +1,10 @@
-C:\Users\yevhe\source\repos\deploy-util\deploy-util\bin\Debug\deploy-util.exe.config
-C:\Users\yevhe\source\repos\deploy-util\deploy-util\bin\Debug\deploy-util.exe
-C:\Users\yevhe\source\repos\deploy-util\deploy-util\bin\Debug\deploy-util.pdb
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy-util.csproj.AssemblyReference.cache
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy_util.InitialForm.resources
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy_util.Properties.Resources.resources
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy-util.csproj.GenerateResource.cache
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy-util.csproj.CoreCompileInputs.cache
+C:\Users\yevhe\source\repos\deploy-util\deploy-util\bin\Debug\deploy-util.exe.config
+C:\Users\yevhe\source\repos\deploy-util\deploy-util\bin\Debug\deploy-util.exe
+C:\Users\yevhe\source\repos\deploy-util\deploy-util\bin\Debug\deploy-util.pdb
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy-util.exe
 C:\Users\yevhe\source\repos\deploy-util\deploy-util\obj\Debug\deploy-util.pdb

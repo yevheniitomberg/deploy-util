@@ -24,39 +24,29 @@ namespace deploy_util
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void fillDropDowns()
         {
-
+            List<string> data = new List<string>();
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                data.Add(d.Name);
+            }
+            this.remoteDiskComboBox.DataSource = data;
+            data.Clear();
+            if (this.sideSelect.Text == "Backend")
+            {
+                this.technologyComboBox.DataSource = new object[] {"SPRING"};
+            } else
+            {
+                this.technologyComboBox.DataSource = new object[] { "REACT" };
+            }
         }
 
-        private void browseButton_Click(object sender, EventArgs e)
+        private void browseDeployFolder_Click(object sender, EventArgs e)
         {
             if (this.folderBrowserDialog.ShowDialog(this) == DialogResult.OK)
             {
-                this.pathInput.Text = this.folderBrowserDialog.SelectedPath;
-            }
-        }
-        private void fillDropDowns()
-        {
-            List<string> disks = new List<string>();
-            foreach (DriveInfo d in DriveInfo.GetDrives())
-            {
-                disks.Add(d.Name);
-            }
-            this.diskSelect.DataSource = disks;
-            this.technologySelect.DataSource = new object[] {"SPRING"};
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            this.jasyptKey.Enabled = this.jasyptCheckbox.Checked;
-        }
-
-        private void browseJar_Click(object sender, EventArgs e)
-        {
-            if (this.openFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                this.jarPath.Text = openFileDialog.FileName;
+                this.pathForDeployTextBox.Text = this.folderBrowserDialog.SelectedPath;
             }
         }
     }
